@@ -1,4 +1,4 @@
-var api_url = 'https://image-search-the-goog.herokuapp.com/';
+var api_url = 'https://image-search-the-goog.herokuapp.com';
 
 function Burnsify(transcript, imageID) {
 	var lines = transcript.lines;
