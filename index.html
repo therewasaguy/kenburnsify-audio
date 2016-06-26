@@ -26,7 +26,8 @@
 		// var episode_id = 'patricia-marx-interviews-john-simon';
 
 		var audioElt = document.getElementById('audio-elt');
-		audioElt.src = './data/audio/' + episode_id + '.mp3';
+		// audioElt.src = './data/audio/' + episode_id + '.mp3';
+		audioElt.src='https://transients-mp3.s3.amazonaws.com/100603_MarkKatz_AlGoreIsSoBoring_MRH1110.mp3';
 		audioElt.load();
 
 		loadTranscript('./data/transcripts/json/' + episode_id);
