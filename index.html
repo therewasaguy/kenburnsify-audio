@@ -26,10 +26,10 @@
 		// var episode_id = 'patricia-marx-interviews-john-simon';
 
 		var audioElt = document.getElementById('audio-elt');
-		audioElt.src = 'data/audio/' + episode_id + '.mp3';
+		audioElt.src = './data/audio/' + episode_id + '.mp3';
 		audioElt.load();
 
-		loadTranscript('data/transcripts/json/' + episode_id);
+		loadTranscript('./data/transcripts/json/' + episode_id);
 	}
 
 	function loadTranscript(episode_id) {
